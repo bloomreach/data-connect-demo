@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/products/pid-123/attributes/margin",
+    "value": 5
+  }
+]

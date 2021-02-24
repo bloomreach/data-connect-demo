@@ -1,0 +1,82 @@
+[
+  {
+    "op": "remove",
+    "path": "/products/pid-0"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-1"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-2"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-3"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-4"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-5"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-6"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-7"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-8"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-9"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-10"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-11"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-12"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-13"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-14"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-15"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-16"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-17"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-18"
+  },
+  {
+    "op": "remove",
+    "path": "/products/pid-19"
+  }
+]

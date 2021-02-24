@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/products/pid-123",
+    "value": {
+      "attributes": {
+        "url": "https://wonderfulengineering.com/wp-content/uploads/2013/11/self-stirring-mug.jpg",
+        "price": 10,
+        "title": "Self stirring mug",
+        "thumb_image": "https://wonderfulengineering.com/wp-content/uploads/2013/11/self-stirring-mug.jpg",
+        "description": "The most amazing product that you never knew you needed...",
+        "tags": ["", ""],
+        "language": "en"
+      }
+    }
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/products/pid-123/attributes/sale_price",
+    "value": 5
+  }
+]
