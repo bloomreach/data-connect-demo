@@ -33,9 +33,8 @@ submitPatchDataRequest = (patchData) => {
         port: 443,
         headers: {
           "Content-Type": "application/json-patch+json",
-          "Content-Length": patchData.length,
-          Authorization: settings.BEARER_API_KEY,
-        },
+          "Authorization": settings.BEARER_API_KEY,
+        }
       }
 
       req = https
@@ -77,11 +76,9 @@ requestIndexUpdate = () => {
           "/indexes",
         port: 443,
         headers: {
-          "Content-Type": "application/json-patch+json",
-          "Content-Length": 0,
-          Authorization: settings.BEARER_API_KEY,
+          "Authorization": settings.BEARER_API_KEY,
           "BR-IGNORE-DOCUMENT-COUNT-DROP": true,
-        },
+        }
       }
 
       req = https
@@ -167,7 +164,7 @@ checkJobStatusUntilCompleteIterator = (jobId, callback, errCB) => {
         logger.log("status: " + statusMessage.status, {sameLineLogging: true})
         setTimeout(function () {
           checkJobStatusUntilCompleteIterator(jobId, callback, errCB)
-        }, 5000)
+        }, 10000)
       }
     })
     .catch((err) => {
@@ -210,5 +207,5 @@ submitJobAndMonitorStatus()
     logger.log("\u2705 all done ")
   })
   .catch((err) => {
-    logger.log("\u274c error submitting job: " + err + "\n")
+    logger.log("\u274c error submitting job: " + JSON,stringify(err) + "\n")
   })
